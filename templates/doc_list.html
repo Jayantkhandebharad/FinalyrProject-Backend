@@ -1,0 +1,13 @@
+{% load static %}
+
+<h1>Doctor list</h1>
+{% for doct in docts %}
+<h3>{{doct.name  }}  </h3>
+<h3>{{doct.email_id}}</h3>
+<h3>{{doct.address}}</h3>
+<h3>{{doct.mob_no}}</h3>
+<h3>{{doct.Speciality}}</h3>
+<br>
+<br>
+{% endfor %}
+<!-- <img src="{% static 'images/wallpaper2.jpg' %}" height="500" width="500"> -->

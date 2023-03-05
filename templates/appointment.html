@@ -1,0 +1,22 @@
+<form method="post" action="register_request_doctor" >
+    {% csrf_token %}
+    <label for="fname">First name:</label><br>
+    <input type="text" id="fname" name="fname"><br>
+    <label for="lname">Last name:</label><br>
+    <input type="text" id="lname" name="lname">
+    <br>
+    <label for="fname">Email id:</label><br>
+    <input type="text" id="email" name="email"><br>
+    <label for="lname">Phone no.:</label><br>
+    <input type="text" id="phone" name="phone">
+    <br>
+    <label for="fname">Doctor Name</label><br>
+    <input type="text" id="Speciality" name="Speciality"><br>
+    <label for="lname">Hospital Name:</label><br>
+    <input type="text" id="addr" name="addr">
+    <br>
+    <label for="lname">Time:</label><br>
+    <input type="text" id="time" name="time">
+    <br>
+    <input type="submit"></input>
+  </form>

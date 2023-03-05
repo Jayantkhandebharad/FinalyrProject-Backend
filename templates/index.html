@@ -1,0 +1,14 @@
+{% load static %}
+
+<h1>Patient Profile</h1>
+{% for patient in patients %}
+<h3>{{patient.name}}</h3>
+<h3>{{patient.medical_history}}</h3>
+<h3>{{patient.age}}</h3>
+<h3>{{patient.weight}}</h3>
+<h3>{{patient.blood_grp}}</h3>
+<h3>{{patient.email_id}}</h3>
+<h3>{{patient.address}}</h3>
+<h3>{{patient.mob_no}}</h3>
+{% endfor %}
+<!-- <img src="{% static 'images/wallpaper2.jpg' %}" height="500" width="500"> -->
